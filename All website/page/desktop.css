@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans&family=Fjalla+One&family=Fredoka:wght@300;400;500;600;700&family=Montserrat:wght@100;400&family=Open+Sans&family=Oswald:wght@400;500;600;700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans&family=Fjalla+One&family=Fredoka:wght@300;400;500;600;700&family=Montserrat:wght@100;400&family=Open+Sans&family=Oswald:wght@400;500;600;700&family=Satisfy&family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans&family=Fjalla+One&family=Fredoka:wght@300;400;500;600;700&family=Kanit:wght@600&family=Montserrat:wght@100;400&family=Open+Sans&family=Oswald:wght@400;500;600;700&family=Satisfy&family=Shippori+Antique+B1&display=swap');
+
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width:  25%;}
+.col-4 {width:  33.33%;}
+.col-5 {width:  41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width:  58.33%;}
+.col-8 {width: 66.66% ;}
+.col-9 {width:  75% ;}
+.col-10 {width:  83.33% ;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+
+
+/* navbar start from here */
+.navbar
+{
+   padding-left: 40px;
+
+}
+
+.nav-link-hide{
+   display: none;
+}
+.nav-item a {
+   color:black;
+   border-bottom:none;
+  padding-right: 30px;
+ padding-left: 10px;
+ font-family: 'Shippori Antique B1', sans-serif;
+ font-weight: 300;
+font-size: 16px;
+padding: 30px 0px;
+ 
+ }
+ .nav-item a:hover{
+    color: white;
+    transition: .1s;
+ }
+.nav-item{
+ 
+
+
+}
+.nav-logo{
+   margin: 0px;
+   padding-right: 30px;
+   width:220px;
+}
+.nav-button {
+   display: block;
+   margin-right: 40px;
+   border: none;
+font-weight: bold;
+padding: 9px 35px;
+background-color: rgba(31, 29, 29, 0.075);
+border-radius: 2px;
+
+ }
+ .nav-button:hover{
+    background-color: white;
+    transition: .1s;
+ }
+
+.nav-second-link{
+   color: black;
+   display: block;
+}
+.nav-second-link {
+margin-left: 400px;
+padding: 30px 0px;
+
+}
+.nav-second-link a{
+   padding-left: 30px;
+text-decoration: none;
+font-family: 'Shippori Antique B1', sans-serif;
+font-weight: 300;
+font-size: 16px;
+color: black;
+padding: 30px 10px;
+
+}
+.nav-second-link ul li{
+   list-style: none;
+   display: inline-block;
+}
+.nav-second-link .active-nav-second a{
+   color: rgb(211, 48, 48);
+}
+
+
+.nav-second-link::after{
+
+   display: table;
+   clear: both;
+   content: '';
+
+}
+ /* navbar ends from here */
+
+
+
+
+/* dropdowa menu start from here */
+
+.navbar-collapse ul li:hover .dorpdown-menu{
+   display: block;
+   transition: .4s;
+}
+.dorpdown-menu{
+   display: none;
+position: absolute;
+margin-top: 8px;
+background-color: #262626;
+width: 300px;
+padding-left: 0px;
+padding: 20px 0px;
+
+}
+.dorpdown-menu ul li{
+   list-style: none;
+   padding: 5px 5px;
+}
+.dorpdown-menu ul li a{
+   font-size: 11px;
+
+color: rgb(130, 134, 138);
+}
+.dorpdown-menu ul li a:hover{
+   color: white;
+transition: .1s;
+
+
+}
+.dorpdown-menu2{
+   /* display: none; */
+position: absolute;
+background-color: #262626;
+width: 200px;
+margin-top: 20px;
+display: none;
+
+
+
+}
+.dorpdown-menu2 ul{
+   margin-top: 20px;
+margin-bottom: 20px;
+
+
+}
+.dorpdown-menu2 ul li{
+   padding: 5px 0px;
+   padding-left: 0px;
+padding-right: 20px;
+
+
+}
+.dorpdown-menu2 ul li a{
+   font-size: 12px;
+   padding-left: 0px;
+   color: rgb(130, 134, 138);
+}
+.nav-second-link ul li:hover .dorpdown-menu2{
+display: block;
+}
+
+
+/* dropdowa menu ends from here */
+/* navbar end from here */
+
+
+
+ /* home page start from here */
+
+ .home-title{
+    padding-top: 0px;
+    padding-top: 70px;
+ }
+.home-title h1{
+   font-size: 80px;
+padding-top: 73px;
+}
+.home-pic{
+   padding-top: 0px;
+  margin-top: 0px;
+}
+.home-pic img{
+   width: 400px;
+   
+  
+}
+  /* home page ends from here */
+  .left-pic img{
+   width: 630px;
+   padding-left: 120px;
+  padding-top: 30px;
+ }
+ .right-content{
+   padding-right: 110px;
+   padding-left: 0px;
+ }
+.active-content1{
+   font-size: 20px;
+}
+
+
+  /* pic content section start from here  */
+
+
+  /* pic content section end from here  */
+
+
+
+
+ /* services product list start from here */
+
+ .services-product-list{
+  
+   padding-left: 110px;
+   
+     }
+.list ul{
+  padding-right: 40px;
+}
+
+
+.footer{
+padding-left: 10%;
+}
+
+.footer h2{
+   padding-top: 50px;
+}
+/* .more-links{
+   margin-left: 70px;
+   margin-right: 70px;
+} */
+
+.copyright p{
+   text-align: center;
+}
+.footer .other-div{
+   width: 30%;
+   padding: 0px 40px;
+}
+.copyright{
+   /* text-align: center; */
+ background-color: #ffbe34;
+ padding-bottom: 30px;
+ padding-top: 50px;
+ }
+  /* services product list ends from here */
+
+
+
+
+
+ /* qode advance start from here */
+ .qode-advance-animation{
+ padding: 35px 70px;
+ }
+ /* qode advance ends from here *
+
+
+
+
+/* footer start from here  */
+
+.scroll-icon {
+   background-color: #ffbe34;
+   text-align: right;
+   padding: 0px;
+   margin-bottom: 0px;
+   padding-right: 50px;
+}
+.scroll-icon i{
+background-color: aqua;
+padding:18px ;
+color: white;
+border-radius: 100%;
+border: none;
+margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.footer h2{
+   font-size: 20px;
+   padding-top: 20px;
+   font-family: "Fredoka", sans-serif;
+   padding-bottom: 20px;
+   }
+   .contact .fa-phone{
+     color: rgb(37, 37, 37);
+     padding-right: 15px;
+   
+   }
+   .footer-content{
+     font-size: 27px;
+    
+   }
+   
+   .contact i{
+     padding-top: 25px;
+   }
+   
+   .contact .fa-location-dot{
+     padding-right: 15px;
+     color: white;
+   }
+   
+   .location-content{
+     color: white;
+   }
+   
+   
+   
+
+/* footer ends from here  */
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+

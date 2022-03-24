@@ -1,0 +1,738 @@
+
+/**google font*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;600;700&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Oswald:wght@400;500;600;700&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=League+Gothic&family=Open+Sans&family=Oswald:wght@400;500;600;700&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=League+Gothic&family=Open+Sans&family=Oswald:wght@400;500;600;700&family=Shizuru&display=swap');
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+}
+body p{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: 'work sans',sans-serif;
+font-size: 16px;
+ line-height: 1.5;
+ -webkit-font-smoothing: antialiased;
+}
+body{
+    display: block;
+    margin: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: Roboto, sans-serif;
+
+}
+.btn-style{
+    background-color:#FF5200;
+    color:white;
+    padding: 13px 42px ;
+    font-family: 'Fjalla One', sans-serif;
+    border-radius: 2px;
+    letter-spacing: 1px;
+}
+.btn-style:hover{
+    background: #252525;
+}
+p{
+    color: #6d6b6b;
+}
+
+#header{
+background: #F5F5F5;
+
+}
+.main-head{
+    font-family: sans-serif;
+    font-weight:200 ;
+    font-size: 15px;
+    letter-spacing: 1;
+}
+.main-head i{
+    padding: 15px 0px;
+}
+
+.main-head a{
+    padding: 15px 0px;
+}
+.fa-solid{
+    color: #FF5200;
+}
+.col-md-3{
+    float: right;
+}
+.col-md-9{
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.fa-brands{
+    color: black;
+}
+.fa-brands:hover{
+    color: #FF5200;
+    transition: .5s;
+}
+.col-md-3{flex: 0 0 25%;
+max-width: 25%;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2,
+ .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, 
+ .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, 
+ .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4,
+.col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9,
+ .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11,
+ .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
+.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto,
+.col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, 
+.col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6,
+ .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl,
+.col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2,
+ .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7,
+.col-xl-8, .col-xl-9, .col-xl-auto {
+position: relative;
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;}
+.col-md-3 a{
+text-decoration: none;
+color:black;
+}
+.col-md-3 a:hover{
+color: #FF5200;
+transition: .5s;
+}
+.navbar{
+position: relative;
+
+display: -ms-flexbox;
+display: flex;
+-ms-flex-wrap: wrap;
+
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+-webkit-box-pack: justify;
+-ms-flex-pack: justify;
+
+padding: 0.5rem 1rem;
+}
+
+
+
+
+.col-md-2 a{
+margin-left: 1px;
+margin-right: 1px;
+}
+.fa-align-right{
+    color: #FF5200;
+border: 1px solid #FF5200;
+padding: 9px 17px;
+border-radius: 1px;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-brand img{
+    position: relative;
+display: inline-block;
+max-width: 190px;
+margin-left: 0%;
+
+
+
+}
+button{
+    border: none;
+}
+.fa-align-right{
+    text-decoration: none;
+}
+.navbar-nav{
+   /* font-family: 'Oswald', sans-serif;*/
+   /* font-family: 'Bebas Neue', cursive;*/
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+}
+
+.navbar-nav  li a{
+    color: black;
+ font-size: 16px;
+letter-spacing: 1px;
+
+}
+
+.navbar-nav  li a:hover{
+    color: #FF5200;
+    transition: .5s;
+}
+.fa-magnifying-glass{
+color: black;
+
+}
+.fa-magnifying-glass:hover{
+    color: #FF5200;
+    transition: .5s;
+
+}
+.bold-search{
+    font-weight: bold;
+}
+.active-home {
+color: #FF5200;
+
+}
+.active-search{
+    font-size: 18px;
+}
+/* dropdown*/
+.dropdown{
+font-family: 'Open Sans', sans-serif;
+position: absolute;
+width: 200px;
+background: white;
+padding-top: 15px;
+padding-bottom: 15px;
+line-height: 29px;
+margin-top: 12px;
+
+transform: scaleY(0);
+transform-origin: top;
+transition: .5s;
+opacity: 0;
+
+}
+.navbar-collapse ul li:hover .dropdown{
+
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: .5s;
+    opacity: 1;
+    text-align: left;
+}
+
+.dropdown ul {
+    list-style: none;
+}
+.dropdown ul li a{
+text-decoration: none;
+}
+
+
+
+
+.margin-top p{
+    font-size: 20px;
+}
+.margin-top h2{
+    line-height: 80PX;
+    font-size: 55px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.margin-top{
+
+padding-top: 90px;
+position: absolute;
+}
+
+
+.atom{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.text-black{
+    color: black;
+}
+.learn-more{
+    text-decoration: none;
+    color: black;
+}
+.card1 a{
+text-decoration: none;
+}
+.card1:hover{
+  background-color:#FF5200;
+  color: white;
+}
+.card1 h5{
+    font-family: 'Bebas Neue', cursive;
+    line-height: 30px;
+    letter-spacing: 1;
+}
+.bg-black{
+    color:black;
+}
+
+.learn-more{
+    color: #FF5200;
+}
+
+.fa-solid{
+    color: #FF5200;
+
+}
+
+#section{
+    background: #F5F6F6;
+    padding: 70px 0px;
+
+
+
+}
+.linner-box{
+    background: red;
+}
+.active-box{
+    background-color: #FF5200;
+    color: white;
+}
+.img{
+ 
+}
+
+.right-list ul li a{
+
+}
+
+.right-list li{
+    list-style: none;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.middle-first-ul{
+margin-left: auto;
+padding-left: 0px;
+line-height: 40px;
+
+}
+.middle-first-ul a:hover{
+color: #FF5200;
+transition: .5s;
+
+}
+    .middle-first-ul a{
+    color: rgb(90, 87, 87);
+    font-weight: bold;
+    text-decoration: none;
+}
+.middle-first-ul i{
+    padding-right: 10px;
+    color: rgb(109, 106, 106);
+
+}
+ul li {
+    list-style: none;
+}
+
+.middle-second-ul{
+    margin-left: auto;
+    padding-left: 0px;
+    line-height: 40px;
+
+    
+    }
+    .middle-second-ul a:hover{
+        color: #FF5200;
+        transition: .5s;
+    }
+    .middle-second-ul a{
+        color: rgb(90, 87, 87);
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .middle-second-ul i{
+        padding-right: 10px;
+        color: rgb(109, 106, 106);   
+    }
+.prgf{
+    line-height: 30px;
+color: rgb(65, 63, 63);
+}
+.btn-side{
+    padding: 5px 37px ;
+    background: #FF5200;
+    color: white;
+    border-radius: 3px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+}
+.btn-side:hover{
+background: #252525;
+transition: .5s;
+}
+
+.Work{
+    font-family: 'Bebas Neue', cursive;
+
+    font-size: 30px;
+
+}
+.section-bg{
+background-image:linear-gradient(rgba(0, 0, 0, 0.61),rgba(20, 20, 20, 0.61)), url(userpic.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding: 50px;
+
+
+}
+.all-icon-number{
+    font-size: 50px;
+    color: white;
+    color: #FF5200;
+}
+.number{
+color: white;
+font-size: 50px;
+font-weight: bold;
+font-family: 'Bebas Neue', cursive;
+letter-spacing: 1px;
+padding: 2px 0px;
+}
+.content-{
+ color: white;
+font-size: 25px;
+font-family: 'Bebas Neue', cursive;
+letter-spacing: 1px;
+}
+.content2{
+ padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+}
+.pag2{
+    color: #817e7e;
+}
+.all-feature{
+    padding: 40px 0px;
+}
+.row-section{
+    padding: 90px 0px;
+}
+.title h2{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.title p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.hr-style{
+max-width: 100px;
+text-align: center;
+margin-left: 505px;
+color: #0e0501;
+
+
+}
+
+.col-lg-3 img{
+    width: 100%;
+}
+
+.list li{
+    list-style: none;
+}
+
+
+.list{
+padding-left: 0px;
+}
+
+.card-list{
+    padding: 30PX 30PX;
+
+}
+.list LI{
+  line-height: 35px;
+}
+
+.card-button{
+    padding: 10px 30px;
+    background: #FF5200;
+    color: white;
+margin-top: 17px;
+border-radius: 3px;
+font-family: 'Bebas Neue', cursive;
+letter-spacing: 1px;
+font-size: 20px;
+
+}
+.card-button:hover{
+background: #0e0501;
+color: white;
+transition:.5s;
+}
+.list i{
+    padding-right: 7px;
+    color: #e46124;
+  
+}
+
+.card-list h6{
+ 
+    font-family: 'Bebas Neue', cursive;
+    padding-bottom: 0px;
+  
+}
+
+.card-list h4{
+    font-size: 30px;
+}
+.doler-sign{
+    font-size: 50px ;
+    font-weight: bolder;
+
+}
+.dif-con{
+    font-size: 17px;
+}
+.start{
+    font-size: 30px;
+}
+
+.services-coltent{
+    margin-left: 77px;
+}
+
+.fa-head-side-cough-slash{
+    margin-right: 20px;
+    font-size: 50px;
+
+
+}
+
+
+.other-content{
+    margin-right: 400px;
+}
+
+.grate-content{
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+.bold-content{
+    font-weight: bold;
+}
+.grate-content a:hover{
+color: #FF5200;
+transition: .5s;
+}
+
+.grate-content a{
+    text-decoration: none;
+    color:white;
+}
+
+.img-content-section{
+background: #222222;
+}
+
+.left-content{
+    margin-left: 800px;
+}
+
+.float-right-1{
+text-align: right;
+background: red;
+width: 20px;
+
+
+}
+.name-card{
+    font-weight: bold;
+    padding-top: 13px;
+    font-family: 'Fjalla One', sans-serif;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+
+.icon-img {
+z-index: 1;
+position: absolute;
+text-align: center;
+color: white;
+margin-left: 72px;
+margin-top: 80%;
+
+}
+.icon-img i{
+padding: 6px;
+
+
+}
+.card-icon-hover i{
+display: none;
+}
+.card-icon-hover:hover{
+display: block;
+
+}
+
+.fa-facebook{
+    text-decoration: none;
+    color: white;
+ background: #094771;
+ border-radius: 100px;
+}
+.fa-facebook:hover{
+    color: none;
+    color: black;
+
+}
+
+
+.fa-twitter{
+    text-decoration: none;
+    color: white;
+  background: cyan;
+  border-radius: 100px;
+}
+
+.fa-twitter:hover{
+    color: none;
+    color: black;
+    
+}
+
+.fa-google-plus-g{
+    text-decoration: none;
+    color: white;
+  background: rgb(175, 95, 4);
+  border-radius: 100px;
+
+}
+
+.fa-google-plus-g:hover{
+
+    color: none;
+    color: black;
+
+}
+
+.fa-linkedin-in{
+    text-decoration: none;
+    color: white;
+  background: rgb(46, 60, 99);
+  border-radius: 100px;
+
+
+}
+.fa-linkedin-in:hover{
+    
+    color: none;
+    color: black;
+}
+
+.card-section3{
+    padding: 80px 0px;
+flex-wrap: wrap;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.slider{
+    position: relative;
+}
+.slider img,div.slider-inner{
+    position: absolute;
+}
+
+
+.slider-left-content{
+    margin-top: 10%;
+}
+.slider img{
+
+height: 575px;
+width: 100%;
+position: absolute;
+z-index: -1;
+top: 0;
+
+}
+.slider-left-margin{
+    padding-left: 0px;
+}
+
+.big-title{
+font-size: 50px;
+font-family: 'Fjalla One', sans-serif;
+color: white;
+letter-spacing: 1;
+line-height: 70px;
+margin-bottom: 20px;
+
+
+}
+.slider-left-content p{
+    color: white;
+    font-size: 20px;
+    
+}
+
+*/
+
+
+
+
+
+
+
+
+
+

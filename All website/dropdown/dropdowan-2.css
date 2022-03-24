@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+margin: 0px;
+
+
+}
+.sub-menu{
+    background: rgb(68, 20, 20);
+justify-content: center;
+display: flex;
+
+}
+.sub-menu ul{
+list-style: none;
+
+}
+.sub-menu ul li{
+    display: inline-block;
+padding: 30px 0px;
+
+
+}
+.sub-menu ul li a{
+text-decoration: none;
+color: rgb(238, 236, 236);
+padding: 25px 30px;
+}
+.sub-menu ul{}
+
+.dropdowan-menu{
+position: absolute;
+width: 150px;
+margin-top: 30px;
+background: rgb(185, 179, 179);
+padding-top: 25px;
+padding-bottom: 25px;
+
+transform-origin: top;
+transition: .5s;
+opacity: 0;
+transform:scaleY(0);
+border-bottom: 5px solid rgb(230, 57, 14);
+
+
+}
+.dropdowan-menu ul li{
+margin: 10px;
+padding: 0px;
+
+}
+.dropdowan-menu ul li a{
+    color: black;
+
+}
+.dropdowan-menu ul li a:hover{
+    color: rgb(168, 90, 62);
+transition: .5s;
+
+
+}
+
+
+.sub-menu ul li:hover .dropdowan-menu{
+    transform:scaleY(1);
+    transition: .5s;
+    opacity: 1;
+}
+.menu-bar{
+margin-left: 140px;
+background: rgb(209, 203, 203);
+
+position: absolute;
+
+
+transform-origin: top;
+transition: .5s;
+opacity: 0;
+transform:scaleY(0);
+border-bottom: 5px solid rgb(230, 57, 14);
+
+
+
+
+}
+.sub-menu-1:hover .menu-bar{
+
+ 
+  transform:scaleY(1);
+  transition: .5s;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+.head-menu{
+position: absolute;
+width: 300px;
+color: black;
+background: rgb(139, 57, 57);
+margin: 0px;
+padding: 0px;
+margin-top: 50px;
+
+
+
+}
+.head-menu ul li a{
+  
+margin: 20px;
+padding: 20px;
+}
+
+
+
+
+
+
+

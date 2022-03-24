@@ -1,0 +1,56 @@
+.menu-bar{
+text-align: center;
+background: green;
+
+}
+.menu-bar ul{
+list-style: none;
+
+}
+.menu-bar ul li{
+display: inline-flex;
+padding: 15px;
+
+
+}
+.menu-bar ul li a{
+text-decoration: none;
+color: azure;
+padding: 15px;
+}
+
+.menu-bar ul li a:hover{
+background: gray;
+color: black;
+
+
+}
+.drop{
+width: 200px;
+position: absolute;
+background: #008000;
+
+margin-top: 57px;
+transform: scaleY(0);
+transform-origin: top;
+opacity: 0;
+transition: .5s;
+
+}
+
+
+.menu-bar ul li:hover .drop{
+    text-align: left;
+
+transform: scaleY(1);
+transform-origin: .5;
+opacity: 1;
+}
+
+.menu-bar ul li:hover .drop ul li a{
+
+  
+}
+
+
+

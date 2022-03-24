@@ -1,0 +1,366 @@
+html {
+    scroll-behavior: smooth;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans&family=Fjalla+One&family=Fredoka:wght@300;400;500;600;700&family=Montserrat:wght@100;400&family=Open+Sans&family=Oswald:wght@400;500;600;700&family=Satisfy&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans&family=Fjalla+One&family=Fredoka:wght@300;400;500;600;700&family=Montserrat:wght@100;400&family=Open+Sans&family=Oswald:wght@400;500;600;700&family=Satisfy&family=Shippori+Antique+B1&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans&family=Fjalla+One&family=Fredoka:wght@300;400;500;600;700&family=Kanit:wght@600&family=Montserrat:wght@100;400&family=Open+Sans&family=Oswald:wght@400;500;600;700&family=Satisfy&family=Shippori+Antique+B1&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans&family=Fjalla+One&family=Fredoka:wght@300;400;500;600;700&family=Kanit:wght@600;800;900&family=Montserrat:wght@100;400&family=Open+Sans&family=Oswald:wght@400;500;600;700&family=Satisfy&family=Shippori+Antique+B1&display=swap");
+  
+  @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Fira+Sans&family=Fjalla+One&family=Fredoka+One&family=Fredoka:wght@300;400;500;600;700&family=Kanit:wght@600;800;900&family=Montserrat:wght@100;400&family=Open+Sans&family=Oswald:wght@400;500;600;700&family=Satisfy&family=Shippori+Antique+B1&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Fira+Sans&family=Fjalla+One&family=Fredoka:wght@300;400;500;600;700&family=Kanit:wght@600;800;900&family=Montserrat:wght@100;400&family=Open+Sans&family=Oswald:wght@400;500;600;700&family=Satisfy&family=Shippori+Antique+B1&display=swap");
+  
+  body {
+    box-sizing: border-box;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+  }
+  p {
+    font-family: "Fira Sans", sans-serif;
+  }
+  [class*="col-"] {
+    float: left;
+    padding: 10px;
+  }
+  [class*="col-"] {
+    width: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  /* navbar start from here */
+  .navbar::after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+  
+  .navbar {
+    background-color: #ffbe34;
+    padding-right: 30px;
+    position: sticky;
+    top: -10px;
+  }
+  .nav-icon {
+    border: none;
+  }
+  
+  .nav-logo {
+    text-align: center;
+    margin-right: 140px;
+    width: 190px;
+  }
+  
+  /* 
+  .navbar-collapse ul li a{
+    padding: 30px 0px;
+  } */
+  .navbar-toggler {
+    text-align: left;
+    padding-left: 30px;
+    font-size: 34px;
+    color: white;
+    border: none;
+  }
+  .nav-button {
+    display: none;
+  }
+  .nav-item {
+    padding-left: 30px;
+    list-style: none;
+  }
+  
+  .nav-item a {
+    color: white;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    /* padding-left: 30px; */
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Fredoka", sans-serif;
+    font-size: 15px;
+  }
+  .dorpdown-menu ul li {
+    list-style: none;
+    padding: 0px;
+  }
+  .nav-item a:hover {
+    color: black;
+    transition: 0.1s;
+  }
+  .nav-link-hide {
+  }
+  .nav-item .active-web-design {
+    color: black;
+  }
+  .nav-item .active-border {
+    border-bottom: none;
+  }
+  .nav-second-link {
+    display: none;
+    position: sticky;
+    top: 97px;
+  }
+  .dorpdown-menu {
+    display: none;
+  }
+  
+  /* navbar ends from here */
+  
+  /* home page start from here */
+  
+  .home-page::after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+  
+  .home-page {
+    box-shadow: 20px 40px 30px 0px rgb(235, 231, 231);
+    text-align: center;
+  }
+  .home-title {
+    padding-top: 90px;
+    /* text-align: left; */
+  }
+  .home-title h1 {
+    font-weight: bolder;
+    font-size: 30px;
+    padding-left: 30px;
+    font-family: "Fredoka", sans-serif;
+  }
+  
+  .home-pic {
+    padding-right: 30px;
+    /* text-align: right; */
+    padding-top: 40px;
+  }
+  .home-pic img {
+    width: 140px;
+  }
+  
+  /* home page ends from here */
+  
+  /* pic content section start from here  */
+  .pic-content-section::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+  .pic-content-section {
+    padding-top: 50px;
+  }
+  .left-pic img {
+    width: 430px;
+    padding-left: 30px;
+  }
+  .right-content {
+    padding-left: 39px;
+  }
+  strong {
+    font-size: 30px;
+    font-family: "Fredoka", sans-serif;
+  }
+  .active-content1 {
+    font-size: 14px;
+  }
+  p {
+    padding: 5px 0px;
+    font-size: 17px;
+    font-family: "Fredoka", sans-serif;
+  }
+  .middle-a-content a {
+    color: #f1a603;
+  }
+  
+  /* pic content section end from here  */
+  
+  /* services product list start from here */
+  .services-product-list::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+  .services-product-list {
+    text-align: left;
+    padding-left: 27px;
+  }
+  .services-product-list .list {
+  }
+  .list {
+    padding: 0px 0px;
+    margin: 0px 0px;
+  }
+  
+  .list ul li {
+    padding: 13px 0px;
+    margin: 0px;
+  }
+  .list ul li {
+    color: rgb(105, 99, 99);
+  }
+  
+  /* services product list ends from here */
+  
+  /* qode advance start from here */
+  .qode-advance-animation::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+  .qode-advance-animation {
+    text-align: center;
+    background-image: linear-gradient(
+      to right,
+      rgb(82, 139, 185),
+      rgb(151, 148, 161),
+      rgb(136, 106, 124)
+    );
+  }
+  .qode-advance-animation a {
+    font-size: 35px;
+    color: white;
+  }
+  
+  /* qode advance ends from here */
+  
+  /* footer start from here  */
+  .footer::after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+  
+  .footer {
+    padding-left: 30px;
+    background-color: #ffbe34;
+    margin-top: 1px;
+  }
+  
+  .footer h2 {
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: "Fredoka", sans-serif;
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: rgb(43, 41, 41);
+  }
+  .contact .fa-phone {
+    color: rgb(37, 37, 37);
+    padding-right: 15px;
+    color: rgb(51, 50, 50);
+    padding-bottom: 27px;
+  }
+  
+  /* 
+      .contact{
+        background-color: green;
+        width: 600px;
+      }
+  
+  .more-links{
+    background-color: red;
+  }
+  .other-div{
+    background-color: red;
+    margin: 0px;
+  }
+   */
+  
+  .footer-content {
+    font-size: 27px;
+  }
+  /* .footer-first-content{
+  margin-top: 60px;
+      }  */
+  .contact .fa-location-dot {
+    color: rgb(37, 37, 37);
+    padding-right: 15px;
+    color: rgb(247, 243, 243);
+    padding-bottom: 27px;
+    font-size: 20px;
+  }
+  
+  .location-content {
+    color: white;
+    padding-bottom: 22px;
+  }
+  .footer-social-link i {
+    background-color: white;
+    color: #ffbe34;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    font-size: 23px;
+    margin-right: 10px;
+    padding: 15px;
+    border-radius: 100%;
+  }
+  .more-links p {
+    margin: 0px;
+    padding: 5px;
+  }
+  
+  .about-us {
+    color: rgb(56, 55, 55);
+  }
+  .copyright {
+    text-align: center;
+    background-color: #ffbe34;
+    padding-bottom: 20px;
+    padding-top: 30px;
+  }
+  .copyright p {
+    text-align: center;
+    font-size: 13px;
+  }
+  .scroll-icon{
+    display: none;
+  }
+  /* .more-links{
+  margin: 0px 60px;
+  }
+  .footer{
+    padding-left:120px;
+    background-color: #ffbe34;
+    margin-top: 1px; */
+  /* }
+  .footer h2{
+  font-size: 20px;
+  padding-top: 20px;
+  font-family: "Fredoka", sans-serif;
+  padding-bottom: 20px;
+  }
+  .contact .fa-phone{
+    color: rgb(37, 37, 37);
+    padding-right: 15px;
+  
+  }
+  .footer-content{
+    font-size: 27px;
+   
+  }
+  
+  .contact i{
+    padding-top: 25px;
+  }
+  
+  .contact .fa-location-dot{
+    padding-right: 15px;
+    color: white;
+  }
+  
+  .location-content{
+    color: white;
+  }
+  
+   */
+  
+  /* footer ends from here  */
+  

@@ -1,0 +1,259 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+/*input:focus*/
+
+input{
+    border:non;
+}
+input:hover{
+    border: 2px solid rgb(134, 127, 127);
+    padding-right: 20px ;
+}
+
+input:focus{
+    background-color: rgb(224, 213, 213);
+    color: white;
+}
+
+
+/*first-letter ,style*/
+
+p::first-letter{
+    color: red;
+    font-size: 50px;
+
+font-size: 4.cm;
+
+
+}
+
+p::after{
+    content: ">";
+}
+
+p::before{
+    content: "";
+}
+h2 p::after{
+    content: ">";
+}
+p::first-line{
+    color: red;
+    font-size: 40px;
+}
+
+li::after{
+    content: ">";
+}
+li::before{
+    content: "<";
+    color: red;
+    font-size: 30px;
+}
+
+
+/*gradient*/
+.gradient{
+    width: 400px;
+    height: 300px;
+border: 1px solid red;
+background-image: linear-gradient(to right,   orange,  white,  black,red,rgb(204, 44, 132),rgb(75, 16, 185));
+
+
+}
+/*.gradient:hover{
+    background-image: linear-gradient(to right,red ,rgb(204, 129, 44),rgb(16, 185, 72));
+
+}
+*/
+
+
+.gradient{
+    background-image:radial-gradient(circle,red ,rgb(204, 129, 44),rgb(16, 185, 72));
+
+}
+/*.contanier1{
+    border: 1px solid red;
+width: 200px ;
+height: 200px ;
+position: absolute;
+margin-top: 20px ;
+background: gray;
+z-index: 1;
+margin-bottom: -40px;
+}
+
+
+
+.contanier2{
+    border: 1px solid red;
+width: 200px ;
+height: 200px ;
+position: absolute;
+margin-top: 20px ;
+padding-top: 40px;
+padding-left:100px ;
+padding-top: 100px;
+background: red;
+padding-right: 100px;
+}
+
+*/
+.contanier1{
+    border: 1px solid red;
+width: 200px ;
+height: 200px ;
+position: absolute;
+margin-top: 20px ;
+background: gray;
+z-index: 1;
+margin-bottom: -40px;
+}
+
+
+
+.contanier2{
+    border: 1px solid red;
+width: 200px ;
+height: 200px ;
+position: absolute;
+margin-top: 20px ;
+padding-top: 40px;
+padding-left:100px ;
+padding-top: 100px;
+background: red;
+padding-right: 100px;
+}
+
+
+/*responsive design*/
+
+.flex-container{
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+
+
+
+}
+
+.div1{
+padding: 10px;
+margin: 10px;
+background: green;
+
+color: white;
+}
+
+
+.container3{
+    width: 300px ;
+    height: 300px;
+    border: 3px solid red;
+box-shadow: 60px 70px 10px  black;
+
+
+}
+
+.card{
+    width: 100px ;
+    height: 140px;
+    box-shadow: 1px 2px 4px black;
+
+}
+
+.card:hover{
+    
+    box-shadow: 2px 4px 2px black;
+}
+
+/*Responsive menubar*/
+
+.menubar{
+    background: gray;
+display: flex;
+justify-content: end;
+
+}
+.menubar a{
+padding: 10px;
+color: white;
+text-decoration: none;
+
+
+}
+.menubar a:hover{
+    background: rgb(43, 33, 33);
+    color: aliceblue;
+}
+
+
+@media screen and (max-width: 600px) {
+    .menubar{
+flex-direction: column;
+padding: 10px;
+
+    }
+    .menubar a{
+text-align: left;
+border-radius: 4px ;
+margin: 5px;
+background-color: rgb(196, 93, 150);
+transition: .5s;
+
+    }
+    .menubar a::after{
+        content: "^";
+
+      padding-left: 30%;
+    }
+}
+*{
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    padding: 20px;
+}
+@media screen and (max-width:400px) {
+    .row{
+display: flex;
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

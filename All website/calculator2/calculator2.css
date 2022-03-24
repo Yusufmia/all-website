@@ -1,0 +1,121 @@
+body{
+text-align: center;
+justify-content: center;
+font-family: sans-serif;
+background: rgb(61, 57, 57);
+margin: 0px;
+padding: 0px;
+align-items: center;
+display: flex;
+
+
+
+}
+
+.container{
+
+width: 300px;
+height: 350px;
+background: rgb(161, 155, 155);
+margin-top: 30px;
+padding-top: 20px;
+
+
+
+}
+.bgc{
+background: rgb(14, 163, 163);
+color: white;
+
+}
+.fc{
+color: rgb(22, 158, 158);
+
+
+}
+.cc{
+color: rgb(223, 130, 16);
+
+
+}
+.display input{
+width: 252px;
+height: 50px;
+text-align: right;
+font-weight: bold;
+font-size: 25px;
+border: none;
+
+
+
+}
+.display input:hover{
+    border: none;
+
+
+}
+.btns{
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:5px;
+
+
+
+}
+.rows button{
+width: 60px;
+height: 50px;
+padding: 10px 0;
+margin-top: 5px;
+font-weight: bold;
+font-size: 20px;
+border: none;
+box-shadow: inset 5px 5px 8px rgb(231, 219, 219),
+inset -5px -5px 8px rgb(212, 209, 209);
+border-radius: 4px;
+}
+.btnc{
+color: rgb(223, 130, 9);
+
+
+}
+.btnall{
+color: rgb(12, 184, 184);
+
+
+
+}
+.btnbg{
+background: rgb(7, 184, 184);
+color: white;
+
+}
+
+
+.btns .rows button:hover{
+box-shadow: inset 5px 5px 8px rgb(196, 184, 184),
+inset -5px -5px 8px rgb(212, 198, 198);
+transition: .1s;
+
+}
+#eval{
+background: rgb(8, 141, 158);
+
+
+}
+#colorc{
+color: rgb(175, 150, 7);
+
+
+}
+#color{
+color:rgb(9, 129, 129);
+
+
+}
+
+

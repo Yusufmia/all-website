@@ -1,0 +1,108 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width:  25%;}
+.col-4 {width:  33.33%;}
+.col-5 {width:  41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width:  58.33%;}
+.col-8 {width: 66.66% ;}
+.col-9 {width:  75% ;}
+.col-10 {width:  83.33% ;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+body{
+  box-sizing: border-box;
+  width: 100%;
+}
+.nav-logo{
+    text-align: left;
+}
+.nav-menu {
+  justify-content: flex-end;
+flex-direction: row;
+
+
+}
+.nav-heading h1{
+    text-align: center;
+}
+
+.nav-menu a{
+    background-color:transparent;
+padding: 10px;
+margin-top: 20px;
+
+}
+
+.about-me{
+  padding-right: 100px;
+}
+
+
+
+
+/* profile start from here */
+.profile-top-weather{
+
+
+
+
+}
+.profile-top-weather img{
+  margin-right: 70px;
+    padding-top: 70px;
+}
+
+
+
+
+.profile-bottom-weather img{
+    margin-left: 70px;
+    padding-top: 70px;
+  }
+
+/* profile end from here */
+
+
+
+
+
+
+/* about-me  start from here*/
+.about-desc p{
+    text-align: left;
+}
+button{
+  text-align: left;
+}
+
+
+
+/* about-me  end from here*/
+/* card start */
+.professional-experiance::after{
+  display: table;
+  content: '';
+  clear: both;
+  
+  }
+/* card ends */
+
+
+
+
+/* footer start from here */
+.footer-copyright{
+padding-top: 66px;
+}
+
+.footer-link {
+padding: 80px;
+}
+
+
+
+/* footer ends from here */
+
+
+
